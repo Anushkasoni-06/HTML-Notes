@@ -1,0 +1,51 @@
+HTML Forms are used to collect user input. Whether it’s login details, contact information, or feedback — forms are a core part of user interaction in websites.
+
+Basic Structure of HTML form ~
+
+<form action="/submit-form" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  
+  <br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  
+  <br>
+
+  <input type="submit" value="Login">
+</form>
+
+Tags ~
+
+<form> - The main container for input fields
+action - URL where form data is sent
+method - GET (default) or POST (secure data submission)
+<input>	- Field for user input
+<label>	- Provides a text label for inputs
+<textarea> - For multi-line text input
+<select> - Creates a dropdown list
+<option> - Defines options inside a <select>
+<button> - Clickable button (can be type submit, reset, or button)
+<fieldset> - Groups related elements together
+<legend> - Title for <fieldset> content
+
+Input types ~
+
+text  -  Single-line input
+password  -  Hides the input text
+email	-  Accepts valid email format
+tel	 -  For phone number input
+number	-  Only numeric input
+date  -  Select date from a calendar
+time  -  Select time
+url	 -  For valid website URLs
+checkbox  -  Select one or more options
+radio	-  Select only one option from a group
+range	-  Slider to select a range of values
+file  -  Upload files
+color  -  Pick a color
+hidden	-  Hidden field (not visible to users)
+submit	-  Submit form data
+reset  -  Clears all form data
+button  -  Generic button (custom JavaScript etc.)
