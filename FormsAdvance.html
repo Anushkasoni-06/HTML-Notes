@@ -1,0 +1,30 @@
+<!-- Advanced HTML Forms -->
+
+<h1>Advanced Form Elements</h1>
+
+<form>
+  <label for="color">Choose a color:</label>
+  <input type="color" id="color" name="color"><br><br>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10"><br><br>
+
+  <label for="search">Search:</label>
+  <input type="search" id="search" name="search"><br><br>
+
+  <label for="browser">Choose a browser:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+  </datalist><br><br>
+
+  <fieldset>
+    <legend>Subscription</legend>
+    <input type="radio" name="plan" value="monthly"> Monthly
+    <input type="radio" name="plan" value="yearly"> Yearly
+  </fieldset><br>
+
+  <input type="submit" value="Submit">
+</form>
